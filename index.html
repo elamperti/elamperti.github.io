@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/tabletop1.3.4.js"></script>
+    <script type="text/javascript" src="js/sheetsee.js"></script>
+    <script type="text/javascript" src="js/socialbits.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <title>Better than robots</title>
+  </head>
+  <body>
+    <!-- HTML -->
+    <div class="container">
+      <!-- <article id="instagram"><span class="load flash animated">LOADING...</span></article> -->
+
+      <div class="bio">
+        <h1>Enrico Lamperti</h1>
+        <p>Better than robots.</p>
+        <ul class="inline-list">
+          <li><a href="http://blog.elamperti.com/">Blog</a></li>
+          <li><a href="https://github.com/elamperti/">GitHub</a></li>
+          <li><a href="https://www.instagram.com/elamperti">Instagram</a></li>
+          <li><a href="https://www.flickr.com/photos/zlamperti">Flickr</a></li>
+        </ul>
+      </div>
+
+      <!-- <article id="tweet"><span class="load flash animated">LOADING...</span></article> -->
+
+    </div>
+
+    <!-- Templates -->
+    <script id="instagram" type="text/html">
+      {{#rows}}
+        <div class="one-gram"><img src="{{instasource}}" alt="" width="150"></div>
+      {{/rows}}
+    </script>
+
+<!--     <script id="tweet" type="text/html">
+      {{#rows}}
+        <p><span class="quote">&ldquo;</span> {{{tweet}}} <span class="quote"> &rdquo;</span></p>
+      {{/rows}}
+    </script> -->
+
+    <!-- JavaScript -->
+      <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+          // var instaURL  = '0Ao5u1U6KYND7dG9CRWdjeVB6dGYyN3c3RktocExUV1E' // insta
+          // var tuitURL = 'undefined_hash' // tweet
+
+          // Tabletop.init({ key: instaURL,  callback: buildInsta,  simpleSheet: true })
+          // Tabletop.init({ key: tuitURL, callback: buildTweet,  simpleSheet: true })
+        })
+      </script>
+
+  </body>
+</html>
