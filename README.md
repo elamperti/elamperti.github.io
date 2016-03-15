@@ -1,3 +1,3 @@
 # Personal page
 
-Based on [Person Page](https://github.com/jlord/person-page).
+Based on [Person Page](https://github.com/jlord/person-page). Just for now.
