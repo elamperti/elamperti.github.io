@@ -13,7 +13,7 @@
   <body>
     <!-- HTML -->
     <div class="container">
-      <article id="instagram"><span class="load flash animated">LOADING...</span></article>
+      <!-- <article id="instagram"><span class="load flash animated">LOADING...</span></article> -->
 
       <div class="bio">
         <h1>Enrico Lamperti</h1>
@@ -33,7 +33,7 @@
     <!-- Templates -->
     <script id="instagram" type="text/html">
       {{#rows}}
-        <div class="one-gram"><img src="{{instasource}}" alt="{{instacaption}}" width="150"></div>
+        <div class="one-gram"><img src="{{instasource}}" alt="" width="150"></div>
       {{/rows}}
     </script>
 
@@ -46,10 +46,10 @@
     <!-- JavaScript -->
       <script type="text/javascript">
         document.addEventListener('DOMContentLoaded', function() {
-          var instaURL  = '1hXlknQU0v6nZDkq8x1KHwHLDs18u8QrfUM3SnvAY6ME'; // insta
+          // var instaURL  = '0Ao5u1U6KYND7dG9CRWdjeVB6dGYyN3c3RktocExUV1E' // insta
           // var tuitURL = 'undefined_hash' // tweet
 
-          Tabletop.init({ key: instaURL,  callback: buildInsta,  simpleSheet: true });
+          // Tabletop.init({ key: instaURL,  callback: buildInsta,  simpleSheet: true })
           // Tabletop.init({ key: tuitURL, callback: buildTweet,  simpleSheet: true })
         })
       </script>
