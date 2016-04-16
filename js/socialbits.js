@@ -17,16 +17,16 @@ function buildInsta(data) {
 
 // get last however many of social bits
 
-// function getLast(array, howMany) {
-//   start = array.length
-//   cut = start - howMany
-//   if (start < 12) {
-//   return array
-//   } else {
-//     array = array.splice(cut)
-//     return array.reverse()
-//   }
-// }
+function getLast(array, howMany) {
+  start = array.length
+  cut = start - howMany
+  if (start < 12) {
+  return array
+  } else {
+    array = array.splice(cut)
+    return array.reverse()
+  }
+}
 
 // parse tweets
 
